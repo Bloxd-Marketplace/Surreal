@@ -1,0 +1,50 @@
+/* ==Surreal Texture Pack== */
+/* @name         Surreal Texture Pack */
+/* @match    https://bloxd.io */
+/* @version      1.0.0 */
+/* @description  Open-Sourced Stylesheet to enhance your gameplay */
+/* @author       Revolux */
+
+html{
+    --removeThisAnnoyingBorder: 0px !important;
+}
+
+/* Font Imports */
+
+@import url('https://fonts.cdnfonts.com/css/panton');
+
+.HomeBackground{
+    background-image: url('https://i.imgur.com/NeE7kOa.png') !important;
+}
+
+/* Built-in AdBlocker */
+
+.CenteredDiv .HomeBannerDiv{
+    display: none !important;
+}
+
+.GameAdsBanner{
+    display: none !important;
+}
+
+.HomeScreenBottomRight{
+    display: none !important;
+}
+
+
+/* Alignment */
+.CenteredDiv{
+    justify-content: center !important;
+}
+
+.ChooseGameWrapper{
+    margin-bottom: 10rem !important;
+    width: 90vw !important;
+}
+
+/* Header Stylesheet Changes */
+
+.LogoContainer{
+    display: none !important;
+}
+
